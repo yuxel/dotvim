@@ -1,0 +1,3 @@
+[submodule ".vim/bundle/checkstyle"]
+	path = .vim/bundle/checkstyle
+	url = https://github.com/tomtom/checksyntax_vim.git
