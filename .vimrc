@@ -29,9 +29,9 @@ set nocompatible
 
 " Keymappings {
     " make tab key shortcuts 
-    map <c-T> :tabnew<CR>           "ctrl+t to open a new tab
-    map <TAB><TAB> :tabnext<CR>     "tab+tab to move next tab                                            
-    map <s-TAB><s-TAB> :tabprev<CR> "shift_tab+shift_tab to move previous tab
+    map <c-T> :tabnew<CR>
+    map <TAB><TAB> :tabnext<CR>
+    map <s-TAB><s-TAB> :tabprev<CR>
 " }
 
 " Vim UI {
