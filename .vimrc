@@ -78,8 +78,16 @@ set nocompatible
 
 " misc {
     set nofoldenable
+    let g:DisableAutoPHPFolding = 1
 " }
-"
+
+
+" PIV {
+    nmap <leader>pd :call PhpDocSingle()<CR>
+    vmap <leader>pd :call PhpDocRange()<CR>
+" }
+
+
 " Supertab {
     let g:SuperTabDefaultCompletionType = "context"
     let g:SuperTabContextDefaultCompletionType = "<c-x><c-o>"
