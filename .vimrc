@@ -91,7 +91,7 @@ set nocompatible
 
 " Supertab {
     let g:SuperTabDefaultCompletionType = "context"
-    let g:SuperTabContextDefaultCompletionType = "<c-x><c-o>"
+    autocmd BufRead,BufNewFile *.php let g:SuperTabContextDefaultCompletionType = "<c-x><c-o>"
 " }
 "
 
