@@ -92,3 +92,17 @@ set nocompatible
     let g:SuperTabDefaultCompletionType = "context"
     let g:SuperTabContextDefaultCompletionType = "<c-x><c-o>"
 " }
+"
+
+" NerdTree {
+    map <C-e> :NERDTreeToggle<CR>:NERDTreeMirror<CR>
+    map <leader>e :NERDTreeFind<CR>
+    nmap <leader>nt :NERDTreeFind<CR>
+
+    let NERDTreeShowBookmarks=1
+    let NERDTreeIgnore=['\.pyc', '\~$', '\.swo$', '\.swp$', '\.git', '\.hg', '\.svn', '\.bzr']
+    let NERDTreeChDirMode=0
+    let NERDTreeQuitOnOpen=1
+    let NERDTreeShowHidden=1
+    let NERDTreeKeepTreeInNewTab=1
+" }
