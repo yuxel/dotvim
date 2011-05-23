@@ -29,6 +29,7 @@ set nocompatible
 
 " Keymappings {
     " make tab key shortcuts 
+    let mapleader = ','
     map <c-T> :tabnew<CR>
     map <TAB><TAB> :tabnext<CR>
     map <s-TAB><s-TAB> :tabprev<CR>
