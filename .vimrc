@@ -23,7 +23,7 @@ set nocompatible
 
     " Filters {
         " remove trailing spaces and force it to end with unix end line
-        autocmd FileType html,xhtml,css,js,php,c,cpp,java,python,xml autocmd BufWritePre <buffer> :call setline(1,map(getline(1,"$"),'substitute(v:val,"\\s\\+$","","")'))
+        " autocmd FileType html,xhtml,css,js,php,c,cpp,java,python,xml autocmd BufWritePre <buffer> :call setline(1,map(getline(1,"$"),'substitute(v:val,"\\s\\+$","","")'))
     " }
 " }
 
