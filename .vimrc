@@ -1,4 +1,5 @@
 set nocompatible
+set clipboard=unnamed
 
 " init pathogen {
     runtime! autoload/pathogen.vim
