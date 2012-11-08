@@ -13,6 +13,12 @@ set clipboard=unnamed
     syntax on
     set encoding=utf-8
     set history=1000
+
+    "disable F1 to open annoying help.txt
+    map <F1> <Esc>
+    imap <F1> <Esc>
+
+
 " }
 
 " Formatting {
