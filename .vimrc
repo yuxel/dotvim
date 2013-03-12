@@ -14,6 +14,18 @@ set clipboard=unnamed
     set encoding=utf-8
     set history=1000
 
+    set backup
+    set smartindent
+    set title
+    set t_Co=256
+    filetype on
+    filetype indent on
+    filetype plugin on
+    set modeline
+    set ls=2
+    colorscheme molokai
+
+
     "disable F1 to open annoying help.txt
     map <F1> <Esc>
     imap <F1> <Esc>
