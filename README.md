@@ -9,3 +9,4 @@
 * [nerdtree](http://www.vim.org/scripts/script.php?script_id=1658) : To make it easier to traverse on filesystem
 * [nerdcommenter](http://www.vim.org/scripts/script.php?script_id=1218) : To make it easier to traverse on filesystem
 * [fugitive](http://www.vim.org/scripts/script.php?script_id=2975) : A Git Plugin which should be illegal to use!
+* [molokai](https://github.com/tomasr/molokai) : Color scheme to rule them all!
