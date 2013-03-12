@@ -14,7 +14,6 @@ set clipboard=unnamed
     set encoding=utf-8
     set history=1000
 
-    set backup
     set smartindent
     set title
     set t_Co=256
