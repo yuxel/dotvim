@@ -1,12 +1,26 @@
-# My vim configuration files
+## Install a python supported vim
 
-## Used plugins
+For MacOS
 
-* [Pathogen](http://www.vim.org/scripts/script.php?script_id=2332) : To handle all other plugins
-* [autoclosetags](http://www.vim.org/scripts/script.php?script_id=2591) : To make tags on markup languages such as xml or html, autoclosed automatically
-* [snipmate](http://www.vim.org/scripts/script.php?script_id=2540) : To make Textmate like snippets available
-* [checkstyntax](http://www.vim.org/scripts/script.php?script_id=1431) : To check code syntax on the fly
-* [nerdtree](http://www.vim.org/scripts/script.php?script_id=1658) : To make it easier to traverse on filesystem
-* [nerdcommenter](http://www.vim.org/scripts/script.php?script_id=1218) : To make it easier to traverse on filesystem
-* [fugitive](http://www.vim.org/scripts/script.php?script_id=2975) : A Git Plugin which should be illegal to use!
-* [molokai](https://github.com/tomasr/molokai) : Color scheme to rule them all!
+    alias python="python3"
+    brew install vim
+    vim --version | grep python
+
+
+## Install vim-plug
+
+vim-plug kur -> https://github.com/junegunn/vim-plug
+
+    curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+## Install pynvim
+
+    pip3 install pynvim
+
+## Replace .vimrc
+
+    cp .vimrc ~/.vimrc
+
+## Install Plugins
+
+Open vim and <pre>:PlugInstall</pre>
